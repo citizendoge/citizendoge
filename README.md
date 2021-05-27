@@ -4,10 +4,10 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 | Dogecoin Protocol 💎️
 | -------------:|
 
-| Open Projects [^2]
+| [Open Projects] (https://github.com/dogecoin/dogecoin/projects)
 | -------------:|
 
-| Operation Such Frenzy [^3] | Next Major - 1.21 [^4] | Next Minor - 1.14.4 [^5]
+| [Operation Such Frenzy] (https://github.com/dogecoin/dogecoin/projects/5) | [Next Major - 1.21] (https://github.com/dogecoin/dogecoin/projects/4) | [Next Minor - 1.14.4] (https://github.com/dogecoin/dogecoin/projects/3)
 | -------------:| :-------------:| :-------------:| 
 
 
