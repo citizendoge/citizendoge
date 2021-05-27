@@ -6,7 +6,7 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 
 
 
-| Protocol | Feature | Reason | Ref| Risk[^1] |
+| Protocol | Feature | Reason | Ref| Risk [^1] |
 | -------------:| ------:| -----:| -----:| -----:|
 |Core|Bitcoin Core Implementation | Standard structs/serialization | https://developer.bitcoin.org/ | 🟢 ⚠️ Needs another
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | https://github.com/namecoin/namecoin-core | 🟢
@@ -17,6 +17,7 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 
 | Operation Such Frenzy [^3] | Next Major - 1.21 [^4] | Next Minor - 1.14.4 [^5]
 | -------------:| :-------------:| :-------------:| 
+
 Over the last few months, Doge has gone an increase in interest driven by Elon Musk and endorsement from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a snapshot of the next major release. 
 
 
@@ -26,7 +27,7 @@ Over the last few months, Doge has gone an increase in interest driven by Elon M
 > Current proposal is the most feasible as it's only touching well known, field-proven implementations on which scalability solutions can quickly be adapted.
 
 
-| Proposed       | Reason           | Ref  |  Risk[^1] |
+| Proposed       | Reason           | Ref  |  Risk [^1] |
 | ------------- |:-------------:| -----:| -----:|
 | Segwit (Segregated witness ) | Separates spending proofs (i.e. signatures) from transactions when embedded in blocks,  further reduces transaction malleability      | BIP141, BIP143 and BIP147  |🟢
 | P2W addressing |   |   | | |🟢
