@@ -1,5 +1,6 @@
 # Citizen Doge ✨
 ##### A project on self-organising problem structuring
+Citizen Doge is a philosophical, moral and technical exploration of what it means to be the potential "currency of the world" as well as "the people's coin". 
 | Dogecoin Protocol 💎️
 | -------------:|
 
@@ -7,7 +8,7 @@
 
 | Protocol | Feature | Reason | Ref| Risk[^1] |
 | -------------:| ------:| -----:| -----:| -----:|
-|Core|Bitcoin Core Implementation | | https://developer.bitcoin.org/ | 🟢 ⚠️ Needs another
+|Core|Bitcoin Core Implementation | Standard structs/serialization | https://developer.bitcoin.org/ | 🟢 ⚠️ Needs another
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | https://github.com/namecoin/namecoin-core | 🟢
 |Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | | 🟢
 
@@ -16,13 +17,14 @@
 
 | Operation Such Frenzy [^3] | Next Major - 1.21 [^4] | Next Minor - 1.14.4 [^5]
 | -------------:| :-------------:| :-------------:| 
-
 Over the last few months, Doge has gone an increase in interest driven by Elon Musk and endorsement from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a snapshot of the next major release. 
 
 
 
 | Next Major - 1.21 🚀 [^2]
 | -------------:|
+> Current proposal is the most feasible as it's only touching well known, field-proven implementations on which scalability solutions can quickly be adapted.
+
 
 | Proposed       | Reason           | Ref  |  Risk[^1] |
 | ------------- |:-------------:| -----:| -----:|
@@ -32,7 +34,7 @@ Over the last few months, Doge has gone an increase in interest driven by Elon M
 | VersionBits / BIP9      |  |  | ⚠️ Needs another, more dangerous soft-fork, see #1340 and #1344. Conflict in the version with AuxPow|
 | TapRoot      |      |    |⚠️ Not yet deployed on Bitcoin and not field tested |
 | Extension Blocks | |  |⚠️ Not yet deployed on Litecoin |
-| Lightning | | |️|
+| Lightning | Transparent payment channels with cross-chain settlement | |️|
 
 | Deployment 🎢
 | -------------:|
@@ -87,8 +89,6 @@ The basis of the above changes are encouraged to be explored but seem rational g
 | Submit Ideas on Reddit | https://www.reddit.com/r/dogecoindev |
 | Bitcoin Bips | https://github.com/bitcoin/bips |
 
-# Citizen Doge ✨ 
-A philosophical, moral and technical exploration of what it means to be the potential "currency of the world" as well as "the people's coin". 
 
 ![Image of Shibe](https://www.nicepng.com/png/detail/22-226389_mlg-doge-png-clip-art-royalty-free-stock.png)
 
@@ -97,5 +97,3 @@ Dogecoin is the evolution of open source technology and digital currency. Contra
 ## Motivation
 
 Having experienced Occupy wall street and being one of the first protestors in sourthern california, I watched a crowd of 15-20 people in Los Angeles and San Diego turn into thousands. I was fascinated by the democratic processes employed to reach ocnsensus on objectives and the problems that were being solved collectively. Doge, defining itself as the people's coin and being decentralized, is reminscent and has larger implications in the futue being a form of currency. Being a coder myself, I couldn't resist getting involved. 
-
-
