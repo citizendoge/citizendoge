@@ -1,6 +1,5 @@
 # Citizen Doge ✨
 ##### A project on self-organising problem structuring
-Citizen Doge is a philosophical, moral and technical exploration of what it means to be the potential "currency of the world" as well as "the people's coin". 
 | Dogecoin Protocol 💎️
 | -------------:|
 
@@ -17,6 +16,7 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 
 | Operation Such Frenzy [^3] | Next Major - 1.21 [^4] | Next Minor - 1.14.4 [^5]
 | -------------:| :-------------:| :-------------:| 
+
 Over the last few months, Doge has gone an increase in interest driven by Elon Musk and endorsement from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a snapshot of the next major release. 
 
 
@@ -87,6 +87,8 @@ The basis of the above changes are encouraged to be explored but seem rational g
 | Submit Ideas on Reddit | https://www.reddit.com/r/dogecoindev |
 | Bitcoin Bips | https://github.com/bitcoin/bips |
 
+# Citizen Doge ✨ 
+A philosophical, moral and technical exploration of what it means to be the potential "currency of the world" as well as "the people's coin". 
 
 ![Image of Shibe](https://www.nicepng.com/png/detail/22-226389_mlg-doge-png-clip-art-royalty-free-stock.png)
 
