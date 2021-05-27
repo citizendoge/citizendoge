@@ -33,7 +33,7 @@ Over the last few months, Doge has gone an increase in interest driven by Elon M
 | CSV (CheckSequenceVerify) | Allows consensus-enforced locking of an output until a relative time and exposes the field to redeem scripts, allows for much more sophisticated redeem scripts, must-have feature for Lightning-like L2 networks. Allows for bi-directional payment channels using P2SH. So this is more of an enabler than a feature. | [BIP68](https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki), [BIP112](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) and [BIP113](https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki) | 🟢 |
 | VersionBits      | Version bits with timeout and delay. It relies on interpreting the version field as a bit vector, where each bit can be used to track an independent change. These are tallied each retarget period. | [Bip9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) | ⛔️ Needs another, more dangerous soft-fork, see #1340 and #1344. Conflict in the version with AuxPow|
 | TapRoot  |    Enhances privacy while reducing the amount of data needed to make them, thereby lowering transaction costs   |[Taproot Bitcoin Proposal](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2018-January/015614.html)  |⚠️🚼 Not yet deployed on Bitcoin and not field tested |
-| Extension Blocks | |  |⚠️ Not yet deployed on Litecoin |
+| Extension Blocks (EB) | Litecoin's Mimblewimble privacy feature is code complete.Only part of the code has been submitted for review, and a review of the code may take weeks or months. The feature is nevertheless close to going live on Litecoin's mainnet sometime this year. | [cryptobriefing.com](https://cryptobriefing.com/litecoins-mw-privacy-feature-is-now-code-complete/) |⚠️ Not yet deployed on Litecoin |
 | Lightning | Layer 2 (L2) payment protocol designed to be layered on top of a blockchain-based cryptocurrency such as bitcoin. Designed to deal with scalability issues in bitcoin. Transparent payment channels with cross-chain settlement |[Wiki](https://en.wikipedia.org/wiki/Lightning_Network), [Git Repo](https://github.com/lightningnetwork/lnd)|️⚠️ Compatibility issues|
 
 | Deployment 🎢
@@ -42,28 +42,6 @@ Over the last few months, Doge has gone an increase in interest driven by Elon M
 | Consensus    | Definition  | Fork Identifiers | Reference |
 | ------------- |:-------------:| -----:| -------------: |
 | 95% Super Majority | Full activation with 1900 blocks having v5 in a 2000 block window | Block version 5 [0x00620104], Protocol version 70016 [0x00620104] | Similar to BIP65 soft fork that was proposed with Dogecoin Core 1.14 | 
-
-
-
-
-
-
-
-[^1]: Risk Profile
-🟢 - Low to no risk, undergoing implimentation or currently implimented.
-⚠️ - Current or future compatability issue considered low to medium risk level 
-⛔️ - High Risk feature, implimentation greatly risks security, scalability and unity of the protocol. Known conflicts and compatibility issues.
-🚼 - New feature (alpha, beta) in protocol that is not field tested and may cause unknown bugs if implimented.
-
-[^2]: https://github.com/dogecoin/dogecoin/projects
-[^3]: https://github.com/dogecoin/dogecoin/projects/5
-[^4]: https://github.com/dogecoin/dogecoin/projects/4
-[^5]: https://github.com/dogecoin/dogecoin/projects/3
-[^6]:
-[^7]:
-[^8]: https://github.com/dogecoin/dogecoin/issues/1340
-
-
 
 | Terms        | Definition         | Ref  |
 | ------------- |:-------------:| -----:|
@@ -97,3 +75,11 @@ Dogecoin is the evolution of open source technology and digital currency. Contra
 ## Motivation
 
 Having experienced Occupy wall street and being one of the first protestors in sourthern california, I watched a crowd of 15-20 people in Los Angeles and San Diego turn into thousands. I was fascinated by the democratic processes employed to reach ocnsensus on objectives and the problems that were being solved collectively. Doge, defining itself as the people's coin and being decentralized, is reminscent and has larger implications in the futue being a form of currency. Being a coder myself, I couldn't resist getting involved. 
+
+
+
+[^1]: Risk Profile
+🟢 - Low to no risk, undergoing implimentation or currently implimented.
+⚠️ - Current or future compatability issue considered low to medium risk level 
+⛔️ - High Risk feature, implimentation greatly risks security, scalability and unity of the protocol. Known conflicts and compatibility issues.
+🚼 - New feature (alpha, beta) in protocol that is not field tested and may cause unknown bugs if implimented.
