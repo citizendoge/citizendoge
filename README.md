@@ -4,6 +4,13 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 | Dogecoin Protocol 💎️
 | -------------:|
 
+| Open Projects [^2]
+| -------------:|
+
+| Operation Such Frenzy [^3] | Next Major - 1.21 [^4] | Next Minor - 1.14.4 [^5]
+| -------------:| :-------------:| :-------------:| 
+
+
 
 
 | Protocol | Feature | Reason | Ref| Risk [^1] |
@@ -12,11 +19,6 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | https://github.com/namecoin/namecoin-core | 🟢
 |Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | | 🟢
 
-| Open Projects [^2]
-| -------------:|
-
-| Operation Such Frenzy [^3] | Next Major - 1.21 [^4] | Next Minor - 1.14.4 [^5]
-| -------------:| :-------------:| :-------------:| 
 
 Over the last few months, Doge has gone an increase in interest driven by Elon Musk and endorsement from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a snapshot of the next major release. 
 
