@@ -1,23 +1,20 @@
 # Citizen Doge ✨
 ##### A project on self-organising problem structuring
 Citizen Doge is a philosophical, moral and technical exploration of what it means to be the potential "currency of the world" as well as "the people's coin". 
-| Dogecoin Protocol 💎️
-| -------------:|
 
-| [Open Projects](https://github.com/dogecoin/dogecoin/projects)
-| -------------:|
+| Dogecoin Protocol 💎️ |  [Open Projects](https://github.com/dogecoin/dogecoin/projects) |
+ -------------:| --------: | 
+
+
 
 | [Operation Such Frenzy](https://github.com/dogecoin/dogecoin/projects/5) | [Next Major - 1.21](https://github.com/dogecoin/dogecoin/projects/4) | [Next Minor - 1.14.4](https://github.com/dogecoin/dogecoin/projects/3)
 | -------------:| :-------------:| :-------------:| 
 
-
-
-
 | Protocol | Feature | Reason | Ref| Risk [^1] |
 | -------------:| ------:| -----:| -----:| -----:|
-|Core|Bitcoin Core Implementation | Standard structs/serialization | https://developer.bitcoin.org/ | 🟢 ⚠️ Needs another
-|POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | https://github.com/namecoin/namecoin-core | 🟢
-|Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | | 🟢
+|Core|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
+|POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
+|Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | [Litecoin.org](https://litecoin.org/) | 🟢
 
 
 Over the last few months, Doge has gone an increase in interest driven by Elon Musk and endorsement from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a snapshot of the next major release. 
@@ -31,13 +28,13 @@ Over the last few months, Doge has gone an increase in interest driven by Elon M
 
 | Proposed       | Reason           | Ref  |  Risk [^1] |
 | ------------- |:-------------:| -----:| -----:|
-| Segwit (Segregated witness ) | Separates spending proofs (i.e. signatures) from transactions when embedded in blocks,  further reduces transaction malleability      | BIP141, BIP143 and BIP147  |🟢
+| Segwit (Segregated witness ) | Separates spending proofs (i.e. signatures) from transactions when embedded in blocks,  further reduces transaction malleability      | [BIP141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki), [BIP143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki) and [BIP147](https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki)  |🟢
 | P2W addressing |   |   | | |🟢
-| CSV (CheckSequenceVerify) | Allows consensus-enforced locking of an output until a relative time and exposes the field to redeem scripts, allows for much more sophisticated redeem scripts, must-have feature for Lightning-like L2 networks. Allows for bi-directional payment channels using P2SH. So this is more of an enabler than a feature. | BIP68, BIP112 and BIP113 |  |🟢
-| VersionBits / BIP9      |  |  | ⚠️ Needs another, more dangerous soft-fork, see #1340 and #1344. Conflict in the version with AuxPow|
-| TapRoot      |      |    |⚠️ Not yet deployed on Bitcoin and not field tested |
+| CSV (CheckSequenceVerify) | Allows consensus-enforced locking of an output until a relative time and exposes the field to redeem scripts, allows for much more sophisticated redeem scripts, must-have feature for Lightning-like L2 networks. Allows for bi-directional payment channels using P2SH. So this is more of an enabler than a feature. | [BIP68](https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki), [BIP112](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) and [BIP113](https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki) | 🟢 |
+| VersionBits      | Version bits with timeout and delay. It relies on interpreting the version field as a bit vector, where each bit can be used to track an independent change. These are tallied each retarget period. | [Bip9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) | ⛔️ Needs another, more dangerous soft-fork, see #1340 and #1344. Conflict in the version with AuxPow|
+| TapRoot  |    Enhances privacy while reducing the amount of data needed to make them, thereby lowering transaction costs   |[Taproot Bitcoin Proposal](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2018-January/015614.html)  |⚠️🚼 Not yet deployed on Bitcoin and not field tested |
 | Extension Blocks | |  |⚠️ Not yet deployed on Litecoin |
-| Lightning | Transparent payment channels with cross-chain settlement | |️|
+| Lightning | Layer 2 (L2) payment protocol designed to be layered on top of a blockchain-based cryptocurrency such as bitcoin. Designed to deal with scalability issues in bitcoin. Transparent payment channels with cross-chain settlement |[Wiki](https://en.wikipedia.org/wiki/Lightning_Network), [Git Repo](https://github.com/lightningnetwork/lnd)|️⚠️ Compatibility issues|
 
 | Deployment 🎢
 | -------------:|
@@ -53,9 +50,9 @@ Over the last few months, Doge has gone an increase in interest driven by Elon M
 
 
 [^1]: Risk Profile
-🟢 - Low to no risk, undergoing implimentation or currently implimented
+🟢 - Low to no risk, undergoing implimentation or currently implimented.
 ⚠️ - Current or future compatability issue considered low to medium risk level 
-⛔️ - High Risk feature, implimentation greatly risk security, scalability and cohesiveness of the protocol
+⛔️ - High Risk feature, implimentation greatly risks security, scalability and unity of the protocol. Known conflicts and compatibility issues.
 🚼 - New feature (alpha, beta) in protocol that is not field tested and may cause unknown bugs if implimented.
 
 [^2]: https://github.com/dogecoin/dogecoin/projects
