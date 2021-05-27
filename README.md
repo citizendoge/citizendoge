@@ -14,6 +14,7 @@
 
 | Operation Such Frenzy | Next Major - 1.21 | Next Minor - 1.14.4
 | -------------:| :-------------:| :-------------:| 
+
 Over the last few months, Doge has gone an increase in interest driven by Elon Musk and endorsement from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a snapshot of the next major release. 
 
 
