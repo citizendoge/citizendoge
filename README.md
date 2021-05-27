@@ -39,13 +39,7 @@ Over the last few months, Doge has gone an increase in interest driven by Elon M
 | ------------- |:-------------:| -----:| -------------: |
 | 95% Super Majority | Full activation with 1900 blocks having v5 in a 2000 block window | Block version 5 [0x00620104], Protocol version 70016 [0x00620104] | Similar to BIP65 soft fork that was proposed with Dogecoin Core 1.14 | 
 
-
-
-
-
-
-
-[^2]: Risk Profile
+Risk Profile
 🟢 - Low to no risk, undergoing implimentation or currently implimented
 ⚠️ - Current or future compatability issue considered low to medium risk level 
 ⛔️ - High Risk feature, implimentation greatly risk security, scalability and cohesiveness of the protocol
