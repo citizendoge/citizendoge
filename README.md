@@ -1,13 +1,15 @@
 # Citizen Doge 
 ##### A project on self-organising problem structuring
-Citizen Doge is a philosophical, moral and technical exploration of what it means to be the potential "currency of the world" as well as "the people's coin". We seek clarifty and understanding and bridge the gaps between the nerds and everyone else.  
+Citizen Doge is a philosophical, moral and technical exploration of what it means to be the potential "currency of the world" as well as "the people's coin". 
 
 ![Image of Shibe](https://www.nicepng.com/png/detail/22-226389_mlg-doge-png-clip-art-royalty-free-stock.png)
 
-Dogecoin is the evolution of open source technology and digital currency. Contrary to popular belief, it is far from a joke. It's an example of sponstaneous decentrlaized commnity and self organising problem structuring. What this all means is that no one is in charge, there is no boss, no corporate structure and no hiring of employees. It depends on our natural ability to have a common goal, to build community and achieve it together. 
+Dogecoin is the evolution of open source technology and digital currency. Contrary to popular belief, it is far from a joke. It's an example of sponstaneous decentrlaized commnity and self organising problem structuring. What this all means is that no one is in charge, there is no boss, no corporate structure and no hiring of employees. It depends on our natural ability to have a common goal, to build community and achieve it together in a decentralized manner. 
 
 
 ### Current Projects and Considerations
+
+Over the last few months, Doge has gone an increase in interest driven by Elon Musk and endorsement from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a snapshot of the next major release. 
 
 > If our transaction volume explodes, I think that we're bound to need cross-chain payment channel solutions at some point. It doesn't have to be Lightning as designed for Bitcoin, but the ability to at least set up payment channels without needing to pre-fund multisig addresses needs to be there if we'd want anything remotely like an L2 solution.
 -patricklodder (DogeDev)
