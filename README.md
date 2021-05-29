@@ -4,7 +4,14 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 
 | Dogecoin Protocol 💎️ |  [Open Projects](https://github.com/dogecoin/dogecoin/projects) |
  -------------:| --------: | 
+ 
+| Protocol | Feature | Reason | Ref| Risk[^1] |
+| -------------:| ------:| -----:| -----:| -----:|
+|Blockchain Size|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
+|POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
+|Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | [Litecoin.org](https://litecoin.org/) | 🟢
 
+https://bitinfocharts.com/dogecoin/
 ***********************
 
 | [Operation Such Frenzy](https://github.com/dogecoin/dogecoin/projects/5) | [Next Major - 1.21](https://github.com/dogecoin/dogecoin/projects/4) | [Next Minor - 1.14.4](https://github.com/dogecoin/dogecoin/projects/3)
@@ -20,7 +27,7 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 Over the last few months, Doge has received an increase in interest driven by Elon Musk and endorsements from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a technical snapshot of the next major release. 
 **********************
 
-| Next Major - 1.21 🚀 [^2]
+| Next Major - 1.21 🚀
 | -------------:|
 > Current proposal is the most feasible as it's only touching well known, field-proven implementations on which scalability solutions can quickly be adapted.
 
