@@ -21,7 +21,7 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 | -------------:| :-------------:| :-------------:| 
 ***********************
 
-| Protocol | Feature | Reason | Ref| Risk |
+| Protocol | Feature | Reason | Ref| Risk* |
 | -------------:| ------:| -----:| -----:| -----:|
 |Core|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
@@ -100,6 +100,7 @@ Dogecoin is the evolution of open source technology and digital currency. Contra
 Having experienced Occupy wall street and being one of the first protestors in sourthern california, I watched a crowd of 15-20 people in Los Angeles and San Diego turn into thousands. I was fascinated by the democratic processes employed to reach ocnsensus on objectives and the problems that were being solved collectively. Doge, defining itself as the people's coin and being decentralized, is reminscent and has larger implications in the futue being a form of currency. Being a coder myself, I couldn't resist getting involved. 
 
 *Risk Keys 
+
 🟢 - Low to no risk, undergoing implimentation or currently implimented.
 
 ⚠️ - Current or future compatability issue considered low to medium risk level 
