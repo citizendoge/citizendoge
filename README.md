@@ -12,9 +12,10 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 |Fee in Reward| 0.48% |
 |Reward Per Block	| 10,000|
 |Github release	| v1.14.3 (2021-02-28)|
+[Ref](https://bitinfocharts.com/dogecoin/)
+
 ****************************************
 
-[Ref](https://bitinfocharts.com/dogecoin/)
  
 | Protocol | Feature | Reason | Ref| Risk* |
 | -------------:| ------:| -----:| -----:| -----:|
