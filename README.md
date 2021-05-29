@@ -5,21 +5,23 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 | Dogecoin Protocol 💎️ |  [Open Projects](https://github.com/dogecoin/dogecoin/projects) |
  -------------:| --------: | 
  
+ |  | | 
+-----------: | --------:|
+|Blockchain Size | 53.50 GB|
+|Block Time | 63 sec |
+|Fee in Reward| 0.48% |
+|Reward Per Block	| 10,000|
+|Github release	| v1.14.3 (2021-02-28)|
+****************************************
+
+[Ref](https://bitinfocharts.com/dogecoin/)
+ 
 | Protocol | Feature | Reason | Ref| Risk* |
 | -------------:| ------:| -----:| -----:| -----:|
 |Core|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
 |Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | [Litecoin.org](https://litecoin.org/) | 🟢
 
-https://bitinfocharts.com/dogecoin/
-
-| Details | | 
------------: | --------:|
-| Blockchain Size | 53.50 GB|
-|Block Time | 63 sec |
-|Fee in Reward| 0.48% |
-|Reward Per Block	| 10,000|
-|Github release	| v1.14.3 (2021-02-28)|
 
 ***********************
 
