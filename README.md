@@ -12,19 +12,10 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 |Fee in Reward| 0.48% |
 |Reward Per Block	| 10,000|
 |Github release	| v1.14.3 (2021-02-28)|
-[Ref](https://bitinfocharts.com/dogecoin/)
+
+- [bitinfocharts](https://bitinfocharts.com/dogecoin/)
 
 ****************************************
-
- 
-| Protocol | Feature | Reason | Ref| Risk* |
-| -------------:| ------:| -----:| -----:| -----:|
-|Core|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
-|POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
-|Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | [Litecoin.org](https://litecoin.org/) | 🟢
-
-
-***********************
 
 | [Operation Such Frenzy](https://github.com/dogecoin/dogecoin/projects/5) | [Next Major - 1.21](https://github.com/dogecoin/dogecoin/projects/4) | [Next Minor - 1.14.4](https://github.com/dogecoin/dogecoin/projects/3)
 | -------------:| :-------------:| :-------------:| 
@@ -34,7 +25,7 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 | -------------:| ------:| -----:| -----:| -----:|
 |Core|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
-|Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | [Litecoin.org](https://litecoin.org/) | 🟢
+|Mining Algorithm|Litecoin's Scrypt | An energy efficient POW algo | [Litecoin.org](https://litecoin.org/) | 🟢
 
 Over the last few months, Doge has received an increase in interest driven by Elon Musk and endorsements from Mark Cuban. For years, Doge developers have maintained their repository and achieved the goal of sustaining the project. As demand increases, they are faced with new challenges. The goal is to outline those challenges and provide a technical snapshot of the next major release. 
 **********************
@@ -53,6 +44,7 @@ Over the last few months, Doge has received an increase in interest driven by El
 | Extension Blocks (EB) | Litecoin's Mimblewimble privacy feature is code complete.Only part of the code has been submitted for review, and a review of the code may take weeks or months. The feature is nevertheless close to going live on Litecoin's mainnet sometime this year. | [cryptobriefing.com](https://cryptobriefing.com/litecoins-mw-privacy-feature-is-now-code-complete/) |⚠️ Not yet deployed on Litecoin |
 | Lightning (L2) | Layer 2 (L2) payment protocol designed to be layered on top of a blockchain-based cryptocurrency such as bitcoin. Designed to deal with scalability issues in bitcoin. Transparent payment channels with cross-chain settlement |[Wiki](https://en.wikipedia.org/wiki/Lightning_Network), [Git Repo](https://github.com/lightningnetwork/lnd)|️⚠️ Compatibility issues|
 | P2W Addressing |   |   | | |
+| Bech32 |||||
 
 ***********************
 
@@ -65,14 +57,25 @@ Over the last few months, Doge has received an increase in interest driven by El
 
 ***********************
 
+| Quotes| Ref |
+| ------------: | -----: |
+| Our developer ecosystem is very small though, and this is a problem because we don't have much people working on libraries and integrations.| patricklodder (Dogedev)| 
+|We'll likely need a payment channel solution eventually, because there is no way to do high tps on a PoW chain because of blocksize vs speed-of-light constraints - nor any chain mechanic that doesn't preselect its block producer for that matter. If our transaction volume explodes, I think that we're bound to need cross-chain payment channel solutions at some point. It doesn't have to be Lightning as designed for Bitcoin, but the ability to at least set up payment channels without needing to pre-fund multisig addresses needs to be there if we'd want anything remotely like an L2 solution. | patricklodder (Dogedev)	|
+|Overtaking the segwit extension framework from Bitcoin, or using EB, or doing non-standard structs/serialization, all have different impacts on 3rd party implementations and we have to weigh those carefully. |patricklodder (Dogedev)|
+
 | Terms        | Definition         | 
 | ------------- |:-------------:|
-| Fork Activation      | Takes a very long time, impacts  | 
+| Fork Activation      | The time it takes for everyone to update to the latest release. This can take a very long time because it is up to the community to upgrade their software | 
 | BlockSize      | Higher size generally means a decrease in transaction time      |  |
 | Transaction Time | Doge has a transaciton time of 1 minute      |  
 | Malleability | The ability of someone to change (mutate) unconfirmed transactions without making them invalid, which changes the transaction’s txid, making child transactions invalid. | 
 | Hard Fork | A hard fork requires all nodes or users to upgrade to the latest version of the protocol software. | 
 | Soft Fork | Backwards-compatible fork that requires only a majority of the miners upgrading to enforce the new rules. | 
+|Witness| |
+| Weight | |
+|Centralized bridging | |
+|X-chain agnosticism| | |
+|On-chain scaling |||
 
 [Learn More - Bitcoin Glossary](https://developer.bitcoin.org/glossary.html)
 
