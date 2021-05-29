@@ -5,20 +5,29 @@ Citizen Doge is a philosophical, moral and technical exploration of what it mean
 | Dogecoin Protocol 💎️ |  [Open Projects](https://github.com/dogecoin/dogecoin/projects) |
  -------------:| --------: | 
  
-| Protocol | Feature | Reason | Ref| Risk[^1] |
+| Protocol | Feature | Reason | Ref| Risk* |
 | -------------:| ------:| -----:| -----:| -----:|
-|Blockchain Size|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
+|Core|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
 |Mining Algorithm|Litecoin's Scrypt | Has enabled a handful of wallet/service integrations that would otherwise have been difficult aor non existent | [Litecoin.org](https://litecoin.org/) | 🟢
 
 https://bitinfocharts.com/dogecoin/
+
+| Details | | 
+-----------: | --------:|
+| Blockchain Size | 53.50 GB|
+|Block Time | 63 sec |
+|Fee in Reward| 0.48% |
+|Reward Per Block	| 10,000|
+|Github release	| v1.14.3 (2021-02-28)|
+
 ***********************
 
 | [Operation Such Frenzy](https://github.com/dogecoin/dogecoin/projects/5) | [Next Major - 1.21](https://github.com/dogecoin/dogecoin/projects/4) | [Next Minor - 1.14.4](https://github.com/dogecoin/dogecoin/projects/3)
 | -------------:| :-------------:| :-------------:| 
 ***********************
 
-| Protocol | Feature | Reason | Ref| Risk [^1] |
+| Protocol | Feature | Reason | Ref| Risk |
 | -------------:| ------:| -----:| -----:| -----:|
 |Core|Bitcoin Core Implementation | Standard structs/serialization | [Bitcoin Docs](https://developer.bitcoin.org/) | 🟢 ⚠️ May impact scalability negatively in the future
 |POW Protocol|Namecoin's Aux Protocol| Allows merged and energy efficient mining | [Namecoin Repo](https://github.com/namecoin/namecoin-core) | 🟢
@@ -32,7 +41,7 @@ Over the last few months, Doge has received an increase in interest driven by El
 > Current proposal is the most feasible as it's only touching well known, field-proven implementations on which scalability solutions can quickly be adapted.
 
 
-| Proposed       | Reason           | Ref  |  Risk [^1] |
+| Proposed       | Reason           | Ref  |  Risk |
 | ------------- |:-------------:| -----:| -----:|
 | Segregated Witness (SegWit) | Separates spending proofs (i.e. signatures) from transactions when embedded in blocks,  further reduces transaction malleability      | [BIP141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki), [BIP143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki) and [BIP147](https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki)  |🟢
 | Check Sequence Verify (CSV) | Allows consensus-enforced locking of an output until a relative time and exposes the field to redeem scripts, allows for much more sophisticated redeem scripts, must-have feature for Lightning-like L2 networks. Allows for bi-directional payment channels using P2SH. So this is more of an enabler than a feature. | [BIP68](https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki), [BIP112](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) and [BIP113](https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki) | 🟢 |
@@ -47,7 +56,7 @@ Over the last few months, Doge has received an increase in interest driven by El
 | Deployment 🎢
 | -------------:|
 
-| Consensus    | Definition  | Identifiers | Reference |
+| Consensus    | Definition  | Identifiers | Ref|
 | ------------- |:-------------:| -----:| -------------: |
 | 95% Super Majority | Full activation with 1900 blocks having v5 in a 2000 block window | Block version 5 [0x00620104], Protocol version 70016 [0x00620104] | Similar to BIP65 soft fork that was proposed with Dogecoin Core 1.14 | 
 
@@ -84,7 +93,7 @@ Dogecoin is the evolution of open source technology and digital currency. Contra
 
 Having experienced Occupy wall street and being one of the first protestors in sourthern california, I watched a crowd of 15-20 people in Los Angeles and San Diego turn into thousands. I was fascinated by the democratic processes employed to reach ocnsensus on objectives and the problems that were being solved collectively. Doge, defining itself as the people's coin and being decentralized, is reminscent and has larger implications in the futue being a form of currency. Being a coder myself, I couldn't resist getting involved. 
 
-[^1]: Risk Keys 
+* Risk Keys 
 🟢 - Low to no risk, undergoing implimentation or currently implimented.
 ⚠️ - Current or future compatability issue considered low to medium risk level 
 ⛔️ - High Risk feature, implimentation greatly risks security, scalability and unity of the protocol. Known conflicts and compatibility issues.
